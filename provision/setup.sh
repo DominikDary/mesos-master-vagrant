@@ -12,7 +12,7 @@ apt-get install zookeeperd zookeeper -y > /dev/null 2>&1
 service zookeeper start  > /dev/null 2>&1
 
 echo "Installing mesos..."
-curl -sLO http://repos.mesosphere.com/ubuntu/pool/main/m/mesos/mesos_1.7.2-2.0.1.ubuntu1604_amd64.deb && sudo dpkg -i mesos_1.7.2-2.0.1.ubuntu1604_amd64.deb
+curl -sLO http://repos.mesosphere.com/ubuntu/pool/main/m/mesos/mesos_1.8.0-2.0.6.ubuntu1604_amd64.deb && sudo dpkg -i mesos_1.8.0-2.0.6.ubuntu1604_amd64.deb
 mkdir mesos-workdir
 
 echo "Installing Marathon..."
